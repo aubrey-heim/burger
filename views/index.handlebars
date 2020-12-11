@@ -11,7 +11,7 @@
       {{#each toEat}}
       <li class="list-group-item bodyEl">
         <p>
-          {{this.id}}. {{this.burger_name}}
+            {{this.burger_name}}
 
           <button data-burgerid="{{this.id}}" class="ml-3 btn btn-danger devour">Devour!</button>
         </p> 
@@ -19,16 +19,16 @@
       {{/each}}
     </ul>
 
-    <ul class="list-group col-6 text-center">
+    <ol class="list-group col-6 text-center">
       <li class="list-group-item bodyEl"><h2>Burgers Eaten</h2></li>
       {{#each eaten}}
       <li class="list-group-item bodyEl">
         <p>
-          {{this.id}}. {{this.burger}}
+          {{this.burger_name}}
         </p>
       </li>
       {{/each}}
-    </ul>
+    </ol>
   </div>
   
  
