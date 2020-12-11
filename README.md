@@ -20,7 +20,7 @@ This project is the thirteenth homework assignment of the UW Coding Bootcamp. Fo
 To install necessary dependencies, run the following command: npm i
 
 ## Usage
-To use this project visit: https://peaceful-sierra-49163.herokuapp.com/
+To use this project visit: https://shrouded-badlands-13796.herokuapp.com/
 
 ## License
 This repository has a MIT license. For more information on this license, please visit: https://choosealicense.com/licenses/mit     
