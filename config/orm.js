@@ -19,7 +19,15 @@ const orm = {
         cb(result);
       });
     },
-    updateOne: function (){}
+    updateOne: function (queryid, cb){
+      let queryString = `UPDATE burgers SET devoured = true WHERE id = ?`
+      connection.query(queryString, queryid, function(err, result) {
+        if (err) {
+          throw err;
+        }
+        cb(result);
+      });
+    }
 }
 
 module.exports = orm;

@@ -11,6 +11,11 @@ const burger = {
       cb(res);
     });
   },
+  updateOne: function(queryid, cb) {
+    orm.updateOne(queryid, function(res) {
+      cb(res);
+    });
+  }
 };
 
 
